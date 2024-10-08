@@ -1,0 +1,61 @@
+:root {
+  --theme-bg: #1c212b;
+  --theme-input-bg: #1c212b;
+  --theme-text: #ececec /* Add other dark mode styles here */;
+  --theme-elevation-50: #161920; // Card background
+  --theme-elevation-100: #161920; // Card Hoverbackground
+  --theme-elevation-800: #ececec; // Input Text
+  --theme-elevation-900: #ececec; // Input Text
+  --theme-elevation-150: #161920; // Create New Button Background
+  --theme-elevation-0: #1c212b;
+  --theme-elevation-600: #ececec;
+  .btn {
+    color: #ececec;
+  }
+  --font-body: 'Roboto', sans-serif !important;
+  --font-serif: 'Roboto', sans-serif !important;
+  .btn--style-primary {
+    background-color: var(--theme-elevation-150);
+  }
+  .file-field__upload-actions button,
+  .file-field__add-file-wrap button {
+    color: var(--theme-elevation-800);
+    background-color: var(--theme-bg);
+  }
+  .list-controls__buttons-wrap .pill {
+    background-color: var(--theme-bg);
+  }
+  .nav-group__toggle:hover,
+  .nav-group__toggle:focus-visible {
+    color: #ffffff;
+  }
+  .file-field__file-mutation button,
+  .file-field__add-file-wrap button {
+    background-color: var(--theme-bg);
+  }
+  .field-type.text:not(.has-many) input {
+    border: 1px solid #ffffff12;
+    background: #161920;
+  }
+  .editor-container {
+    background: #161920;
+  }
+  .toolbar-popup__dropdown-items {
+    background: #161920;
+  }
+  .toolbar-popup__dropdown-items .toolbar-popup__dropdown-item:hover:not([disabled]),
+  .toolbar-popup__dropdown-items .toolbar-popup__dropdown-item.active {
+    background-color: #1c212b;
+  }
+  .draggable-block-menu {
+    background-color: #1c212b;
+  }
+  .icon .add-block-menu {
+    color: #ececec;
+    fill: #ececec;
+    stroke: #ececec;
+  }
+  .add-block-menu {
+    background-color: #ffffff12;
+  }
+}
